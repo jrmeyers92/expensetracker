@@ -1,7 +1,10 @@
+@import "./styles/Variables.module.css";
+
 .app {
 	margin: 0 !important;
 	padding: 0 !important;
 	height: 100vh;
 	font-family: "Open Sans", sans-serif;
 	width: 100vw;
+	background-color: var(--mint);
 }

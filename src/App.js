@@ -1,11 +1,12 @@
 import React from "react";
-import Nav from "./components/nav/Nav";
+import Header from "./components/nav/Header";
 import styles from "./App.module.css";
+import "semantic-ui-css/semantic.min.css";
 
 function App() {
 	return (
 		<div className={styles.app}>
-			<Nav />
+			<Header />
 		</div>
 	);
 }
