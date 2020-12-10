@@ -5,7 +5,7 @@ import { Navbar, NavItem } from "react-materialize";
 const Nav = () => {
 	return (
 		<div>
-			<Navbar alignLinks='right'>
+			<Navbar alignLinks='right' className='blue'>
 				<NavItem>Home</NavItem>
 				<NavItem>Budget</NavItem>
 				<NavItem>Expenses</NavItem>
