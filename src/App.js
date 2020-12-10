@@ -1,11 +1,11 @@
 import React from "react";
-import Header from "./components/Header/Header";
-import styles from "./App.module.css";
+import Nav from "./components/nav/Nav";
+import M from "materialize-css";
 
 function App() {
 	return (
-		<div className={styles.app}>
-			<Header />
+		<div>
+			<Nav />
 		</div>
 	);
 }
