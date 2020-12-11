@@ -1,8 +1,10 @@
 import React from "react";
+
 import { Navbar, NavItem } from "react-materialize";
 // import { Navbar } from "materialize-css";
 
 const Nav = () => {
+	document.addEventListener("DOMContentLoaded", function () {});
 	return (
 		<div>
 			<Navbar alignLinks='right' className='blue'>
